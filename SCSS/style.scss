@@ -1,0 +1,155 @@
+/* Pics for the headers of pages  ------------------------*/
+@import "header", "buttons", "card", "variables", "carousel";
+
+
+$pages: "index", "extractionMethods", "coffeeDrinks", "groundCoffee", "latteArt";
+
+@each $page in $pages {
+  @for $i from 1 through 3 {
+    .carousel__image__#{$page}--background--#{$i} {
+      background-image: url("../media/images/#{$page}/carousel-#{$page}-#{$i}.jpg");
+    }
+}
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* fonts  */
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  color: $black;
+}
+
+h1 {
+  font-size: $title;
+  margin: 1rem;
+}
+
+.bigTitleText,
+h2 {
+  font-size: 3rem;
+  margin: .5rem;
+}
+
+.titleTextl,
+h3 {
+  font-size: 1.4rem;
+}
+
+.contentText,
+p {
+  font-size: $paraphs
+}
+
+section {
+  margin: 1rem;
+}
+
+// grid 
+.grid__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 22rem));
+  grid-template-rows: max-content;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+// footer
+.footer__container {
+  background-color: $mainColor;
+  .footer__socials {
+    .socials__item {
+      a {
+        text-decoration: none;
+        color: $black;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+
+
+/* acordion */
+.accordion__container {
+  min-height: 50vh;
+  margin-top: 3rem;
+  .accordion {
+    .accordion__item {
+      div {
+        .accordion__button {
+          margin: 0.1rem;
+          box-shadow: none;
+          color: #000;
+          background-color: $mainColor;
+        }
+      }
+      .accordion-collapse {
+        transition: 0.25s;
+        .accordion__body {
+          .accordion__image {
+            width: 100%;
+            img {
+              min-width: 15rem;
+              max-width: 100%;
+              height: auto;
+            }
+          }
+          
+        }
+      }
+    }
+  }
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url($rowSvg);
+}
+
+// articles 
+
+.article {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  gap: 2rem;
+  .article__image {
+    padding: 1rem;
+    max-width: 100%;
+    height: auto; 
+  }
+ p {
+   font-size: 1rem;
+
+ }
+}
+.video__container {
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+  margin: 1rem;
+  .video {
+    width: 100%;
+    max-width: 70rem;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .article {
+    flex-direction: row;
+    .article__image {
+      max-width: 50%;
+    }
+  }
+  
+}

@@ -1,0 +1,56 @@
+.btn--enlarges {
+    font-weight: 500;
+    border: 2px solid $mainColor;
+    border-radius: 5px;
+    padding: 0.3rem 1rem;
+    text-decoration: none;
+    color: $mainColor;
+    &:hover {
+      color: #fff;
+      background-color: $mainColor;
+      transform: scale(1.3275);
+      transition: 0.09s;
+    }
+  }
+
+  .btn__cont {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+    padding: 0.4rem 5rem;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #00000070;
+    line-height: 3rem;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all 0.35s;
+    cursor: pointer;
+    .btn__title {
+      position: relative;
+      z-index: 10;
+      transition: 0.8s;
+    }
+    // button animation
+    &::after {
+      position: absolute;
+      content: '';
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      border-radius: 5px;
+      background: $mainColor;
+      color: #fff;
+      transition: all 0.35s ease-in;
+    }
+    &:hover {
+      .btn__title {
+        color: #fff;
+      }
+      &::after {
+        width: 100%;
+      }
+    }
+  }
