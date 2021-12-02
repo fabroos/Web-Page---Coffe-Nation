@@ -1,7 +1,7 @@
 {
-  "name": "clase10",
+  "name": "coffee-nation",
   "version": "1.0.0",
-  "description": "",
+  "description": "an static webpage to learn the basics concepts of coffee, and get some recommendations",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "node-sass": "^6.0.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "bootstrap": "^"
   },
   "devDependencies": {
     "eslinter": "^3.2.1"

@@ -35,6 +35,8 @@
     }
   }
   
+// arrow styles
+
   .arrow {
     z-index: 10;
     position: absolute;
@@ -50,6 +52,7 @@
     }
   }
   
+// animation for arrow 
   @keyframes float {
     0% {
       transform: translate(-50%, 0px);

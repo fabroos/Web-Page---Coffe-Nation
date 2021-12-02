@@ -11,13 +11,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <!-- SEO -->
     <meta name="description" content="Site dedicated to explaining in a simple way some of the main characteristics of coffee as well as tips and good practices to make a great coffee.">
     <meta name="keywords" content="coffee, caribou coffee, best coffee, coffee grinder, coffee cup, coffee grind, coffee ground, coffee machine, methods extractions, coffee extraction chart,
      coffe extraction, coffee art, schaerer coffee art plus, starbucks, bonafide, cafe, italian coffee">
+     <!-- title -->
     <title>Coffee Nation</title>
 </head>
 
@@ -25,13 +26,16 @@
     <header>
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid w-100 navbar__container">
+                <!-- navbar container -->
                 <a class="navbar-brand navbar__brand" href="#"><img src="./media/images/CoffeeNation.svg"
                         alt="Coffee-Nation logo coffeeNation" srcset=""></a>
+                <!-- hamburguer menu collapsible -->
                 <button class="navbar-toggler navbar__btn" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"> <img src="./media/images/hamburgerMenu.png" class="navBtn"
                             alt="hamburguer-menu menu" /></span>
                 </button>
+                <!-- navbar -->
                 <div class="collapse navbar-collapse navbar__items " id="collapsibleNavbar">
                     <ul class="navbar-nav bold  d-flex justify-content-around w-100">
                         <li class="nav-item nav__item">
@@ -51,10 +55,10 @@
             </div>
         </nav>
     </header>
-
-    <div class="carousel slide " id="carousel-fade" data-bs-ride="carousel">
+    <!-- carousel -->
+    <div class="carousel-fade slide" id="carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
-
+            <!-- carousel item 1 -->
             <div class="carousel-item carousel__item active" data-bs-interval="4000">
                 <div class="carousel__image--background carousel__image__index--background--1 overlay-img"></div>
                 <div class="carousel__content">
@@ -62,7 +66,7 @@
                     <a href="#main-content" class="btn__cont"><span class="btn__title">Go</span></a>
                 </div>
             </div>
-
+            <!-- carousel item 2 -->
             <div class="carousel-item carousel__item" data-bs-interval="4000">
                 <div class="carousel__image--background carousel__image__index--background--2"></div>
 
@@ -71,7 +75,7 @@
                     <a href="#main-content" class="btn__cont"><span class="btn__title">Go</span></a>
                 </div>
             </div>
-
+            <!-- carousel item 3 -->
             <div class="carousel-item carousel__item" data-bs-interval="4000">
                 <div class="carousel__image--background carousel__image__index--background--3"></div>
                 <div class="carousel__content ">
@@ -79,7 +83,7 @@
                     <a href="#main-content" class="btn__cont"><span class="btn__title">Go</span></a> 
                 </div>
             </div>
-
+            <!-- arrow icon  -->
             <a href="#main-content">
                 <div class="arrow">
                     <img src="./media/images/arrow.svg" alt="arrow svg">
@@ -88,15 +92,16 @@
 
         </div>
     </div>
-
+    <!-- main content -->
     <main>
         <section class="container mt-4">
+        <!-- title of content -->
             <div class="container" id="main-content">
                 <h2>Best coffees to buy</h2>
             </div>
-
+            <!-- card container -->
             <div class="grid__container container">
-
+                <!-- card 1 -->
                 <div class="card">
                     <div class="card__img"><img class="card-img-top" loading="lazy"
                             src="https://images.albertsons-media.com/is/image/ABS/960277987?$ecom-pdp-desktop$&defaultImage=Not_Available&defaultImage=Not_Available"
@@ -111,7 +116,7 @@
                             class="btn--enlarges">Buy</a>
                     </div>
                 </div>
-
+                <!-- card 2 -->
                 <div class="card">
                     <div class="car__img"><img class="card-img-top" loading="lazy"
                             src="https://foodpharmacy.blog/img/equal-exchange-organic-coffee-breakfast-blend-ground-12-oz-340-g.webp"
@@ -127,7 +132,7 @@
                             class="btn--enlarges">Buy</a>
                     </div>
                 </div>
-
+                <!-- card 3 -->
                 <div class="card">
                     <div class="car__img"><img class="card-img-top" loading="lazy"
                             src="https://ipcdn.freshop.com/resize?url=https://images.freshop.com/00733411900392/1b485dcae33c0d220d94af4d4f165682_large.png&width=512&type=webp&quality=80"
@@ -147,9 +152,9 @@
             </div>
         </section>
     </main>
-
+    <!-- footer -->
     <footer class=" container-fluid footer__container p-4">
-
+        <!-- social networks -->
         <div class="footer__socials">
             <ul class="socials__container nav nav-justified pb-3 border-bottom mb-2">
                 <li class="socials__item nav-item "><a href="https://www.instagram.com/fabrii_signoretta/"  target="_BLANK">Instagram</a></li>
@@ -157,7 +162,7 @@
                 <li class="socials__item nav-item "><a href="https://youtube.com" class="text-decoration-none" target="_BLANK">Youtube</a></li>
             </ul>
         </div>
-
+        <!-- copyright -->
         <div class="footer__copyright">
             <p class="mb-0 text-center">Fabrizio Signoretta 2021 </p>
         </div>
