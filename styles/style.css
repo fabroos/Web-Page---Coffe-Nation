@@ -255,6 +255,8 @@ section {
     color: #121212; }
     .footer__container .footer__socials .socials__item a:hover {
       color: #fff; }
+    .footer__container .footer__socials .socials__item a i {
+      font-size: 1.6rem; }
 
 /* acordion */
 .accordion__container {
