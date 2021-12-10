@@ -108,7 +108,7 @@ header {
     justify-content: space-around;
     align-items: flex-start; }
     .card .card__body .body__info {
-      font-size: 0.6rem; }
+      font-size: 0.8rem; }
 
 * {
   margin: 0;
@@ -299,6 +299,21 @@ section {
   .video__container .video {
     width: 100%;
     max-width: 70rem; }
+
+.container__404 {
+  text-align: center;
+  margin: auto;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 50vh;
+  min-width: 300px;
+  gap: 2rem;
+  border-radius: 5rem;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.044);
+  box-shadow: 2px 2px 15px 2px rgba(96, 96, 96, 0.311); }
 
 @media screen and (min-width: 1200px) {
   .article {
