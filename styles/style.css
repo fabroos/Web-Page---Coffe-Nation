@@ -14,7 +14,7 @@ header {
     background-color: #fff; }
     header .navbar .navbar__container {
       padding: 0;
-      height: 10vh; }
+      height: 7vh; }
       header .navbar .navbar__container .navbar__brand {
         margin: 0 0 0 .4rem;
         height: 100%; }
@@ -118,7 +118,7 @@ header {
 /* carousel */
 .carousel__item {
   background-color: #000;
-  height: 90vh; }
+  height: 94vh; }
   .carousel__item .carousel__image--background {
     top: 0;
     left: 0;
