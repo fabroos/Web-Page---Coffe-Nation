@@ -11,7 +11,6 @@ The objetive of the page is learn and get recommendations of how to prepare a go
 
 - Html
 - Css
-- Javascript
 - Bootstrap
 - Sass 
 - BEM 
